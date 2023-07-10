@@ -87,7 +87,7 @@ export const propertyInformation = (req, res) => {
         [
           buildingType,
           propertyName,
-          listedDate, // Pass the current date to the query
+          listedDate, 
           rentOrSale,
           numOfHall,
           numOfKitchen,
