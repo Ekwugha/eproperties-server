@@ -11,7 +11,7 @@ const storage = multer.diskStorage({
     const fileName = uniqueSuffix + fileExtension;
     cb(null, fileName);
     req.body.featuredImage = fileName;
-    req.body.kitchenIamgeImage = fileName; 
+    req.body.kitchenImage = fileName; 
   },
 });
 
